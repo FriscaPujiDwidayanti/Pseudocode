@@ -1,0 +1,23 @@
+-> Aplikasi sistem kasir (memasukkan item dan auto calculate total harga)
+-> Output : jumlah item dan total harga
+
+Mendefinisikan variabel
+READ AND WRITE "troli" with array
+READ AND WRITE "jumlah_item" with number
+READ AND WRITE "total_harga" with number
+READ AND WRITE "i" with number
+
+STORE "troli" from customer
+STORE "total_harga" with 0
+STORE "i" with 0
+
+WHILE troli.length > i
+    DO 
+        ADD total_harga with total_harga + troli[i]
+        adding  i by 1
+ENDWHILE
+
+STORE "total_harga"
+
+PRINT "total_harga"
+PRINT "troli.length" <- jumlah_item
